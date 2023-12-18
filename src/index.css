@@ -1,0 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/sf-pro-display");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #0f172a;
+}
